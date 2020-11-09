@@ -1,4 +1,4 @@
-import chunk from './chunk'
+import { chunk } from './chunk'
 
 const testArray = ['Typescript', true, 'Javascript', false, 'ReactJS', 'Angular', 'Webpack', 'Lodash', 0, null]
 

@@ -1,4 +1,4 @@
-export default function chunk(arr: any[], size: number = 1): any[] {
+export function chunk(arr: any[], size: number = 1): any[] {
   const newArr = []
   if (size === 0) {
     return newArr

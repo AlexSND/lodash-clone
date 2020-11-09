@@ -1,3 +1,3 @@
-export default function(arr: any[]): any[] {
+export function compact(arr: any[]): any[] {
   return arr.filter(item => !!item)
 }
